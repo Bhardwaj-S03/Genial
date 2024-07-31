@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+*{
+    overflow-x: hidden;
+}
+body{
+    margin-left:65px;
+    margin-right:65px;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+.logo p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left:50px;
+    margin-right:140vh;
+    font-family: "Playwrite NZ", cursive;
+    padding:0px;
+}
+.nav{
+    display: flex;
+    /* background-color: #4e5a50;  */
+    background-color: rgb(104, 87, 87);
+    position: fixed;
+    top:0;
+    width:91.5%;
+    
+    
+    
+}
+.icon img{
+    margin-top:40px;
+    margin-right: 55px;
+}
+#page1{
+    margin-bottom: 50px;
+}
+.second{
+    background-image: url(images/second.jpg);   
+    background-position: center;
+    background-size: cover;
+    height:90vh;
+    width:70%;
+    position: relative;
+    margin-top:100px;
+    z-index:-1 ;
+}
+.rightdiv{
+    background-color: #ffffff;
+    position: absolute;
+    top:150px;
+    left:50%;
+    padding: 50px;
+    margin-right:65px;
+    z-index:-1;
+}
+.para{
+    
+    font-size:45px;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+}
+.rightdiv a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    font-weight: bolder;  
+}
+/* #page2{
+    margin-top: 50px;
+} */
+#div1{
+    display: flex;
+    gap:25px;
+
+}
+.right{
+    margin-top: 50px;
+    z-index:-1 ;
+}
+ 
+.left{
+    margin-top: 50px;
+    z-index:-1 ;
+}
+.right a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+.next a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.next1 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.next2 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.next3 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.line{
+    border:0.3px solid grey;
+}
+.para1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.para0{
+    font-size: 25px;
+    font-weight: bold;
+}
+.four{
+    display: flex;
+}
+.abc img{
+    margin:10px;
+    position:relative;
+    opacity:0.6;
+}
+.business{
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top:190%;
+    left:76%;
+}
+.fashion{
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top:213%;
+    left:76.5%;
+}
+.artistic{
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top:190%;
+    left:88%;
+}
+.media{
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top:213%;
+    left:88%;
+}
+small{
+    font-size: 18px;
+}
+.para2{
+    font-size: 20px;
+}
+.end{
+    margin-top: 50px;
+    z-index:-1 ;
+}
+.round{
+    text-align: center;
+}
+.round img{
+    border-radius: 50%;
+}
+button{
+    padding:10px;
+    margin:4px;
+    background-color: #d6d6d6;
+    border: none;
+}
+button:hover{
+    background-color: grey;
+    cursor:pointer;
+    border-radius: 1px solid black;
+}
+.para3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.articles{
+    display: flex;
+    gap:10px;
+}
+.load{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    margin-left:450px;
+    padding: 20px;
+}
+.load:hover{
+    background-color: rgb(198, 197, 197);
+    color:black;
+    border: 1px solid black;
+}
+.seven{
+    display: flex;
+    gap:2px;
+}
+.ftr{
+    display: flex;
+    gap:40px;
+}
+.links a{
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+}
+.categories a{
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+}
+.email{
+    padding: 8px;
+    font-size: 15px;
+}
+.sign{
+    color: white;
+    background-color: black;
+}
+.last{
+    display: flex;
+}
+.last a{
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.copy{
+    margin-left: 350px;
+}
+@media(min-width:320px) and (max-width:425px) {
+    .logo p{
+        font-size: 22px;
+        font-weight: bold;
+        margin-left:22px;
+        margin-right:15vh;
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    .nav{
+        width:89.5%;
+        z-index: 11;
+    }
+    .second{
+        background-image: url(images/second.jpg);
+        background-position: center;
+        background-size: cover;
+        height:73vh;
+        width:81%;
+        position: relative;
+        margin-top:42px;
+        z-index:-1;
+    }
+    .rightdiv{
+        background-color: #ffffff;
+        position: absolute;
+        top:92px;
+        left:27%;
+        padding: 18px;
+        margin-right:65px;
+        width:186px;
+        z-index:-1;
+    }
+    .right{
+        z-index:-1;
+    }
+    .left{
+        z-index:-1;
+    }
+    .para{
+        font-size:23px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 12px;
+    }
+    .icon img{
+        margin-top:23px;
+        margin-right:21px;
+        height:20px;
+    }
+    body{
+        margin:20px;
+    }
+    #div1{
+        display: block;
+    }
+    .frst img{
+        height:35vh;
+    }
+    .frst small{
+        text-align: center;
+    }
+    .next img{
+        width:54vh;
+    }
+    .next0 img{
+        width:53vh;
+    }
+    .next1 img{
+        width:53vh;
+    }
+    .next2 img{
+        width:53vh;
+    }
+    .next3 img{
+        width:53vh;
+    }
+    .load{
+        margin-left:25%;
+    }
+    .para1{
+        font-size: 24px;
+        margin-left:1px; 
+    }
+    .abc img{
+        width:250px;
+    }
+    .business {
+        color:black;
+        font-size:16px;
+        font-weight: bold;
+        position: absolute;
+        top:1068%;
+        left:25.7%;
+    }
+    .fashion{
+        color:black;
+        font-size:16px;
+        font-weight: bold;
+        position: absolute;
+        top:1094%;
+        left:28%;
+    }
+    .artistic{
+        color:black;
+        font-size:16px;
+        font-weight: bold;
+        position: absolute;  
+        top:1068%;
+        left:57%;
+    }
+    .media{
+        color:black;
+        font-size:16px;
+        font-weight: bold;
+        position: absolute;
+        top:1094%;
+        left:59%;
+    }
+    .end{
+        margin: 50px;
+        z-index: -1;
+    }
+    .round img{
+        margin-left:-9px;
+        border-radius: 7%;
+    }
+    .para2{
+        margin-left:6px;
+        width:168px;
+    }
+    .subscribe button{
+        display: inline;
+    }
+    .articles{
+        display: block;
+    }
+    .articles img{
+        width: 70%;
+        height: 10%;
+    }
+    .p4 img{
+        width:28vh; 
+        height:28vh; 
+    }
+    .para0{
+        width:277px;
+        margin-left: 0px;
+    }
+    .para0 u{
+        font-size: 20px;
+    }
+    .seven{
+        display:block;
+        margin-left: 20px;
+    }
+    .seven img{
+        width:286px;
+    }
+    .ftr{
+        display: block;
+        gap:40px;
+    }
+    .our p{
+        font-size:18px;
+    }
+    .newsletter p{
+        font-size:18px;
+    }
+    .email{
+        padding: 4px;
+    }
+    button{
+        padding: 7px;
+    }
+    .last{
+        display: block;
+    }
+    .last p{
+        font-size:15px;
+        font-weight: bolder;
+    }
+    .last a{
+        padding: 10px;
+    }
+    .copy{
+        margin:10px;
+    }
+}  
